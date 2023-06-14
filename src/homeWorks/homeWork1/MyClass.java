@@ -1,4 +1,4 @@
-package homeWorks;
+package homeWorks.homeWork1;
 
 class MyClass {
 
