@@ -7,20 +7,20 @@ public class SecondHomeWorkBasicVersion {
             sum = sum + number % 10;
             number = number / 10;
         }
-        System.out.println("Сума цифр " + sum);
+        System.out.println("Sum " + sum);
     }
 
     public static void sumOfParts(String firstWord, String secondWord) {
         int numberOfCharacters = firstWord.length() + secondWord.length();
-        System.out.println("Кількість букв " + numberOfCharacters);
+        System.out.println("Number of characters " + numberOfCharacters);
     }
 
     public static void sumOfParts(boolean b) {
         int number = 15;
         if (number > 0) {
-            System.out.println("Число більше нуля");
+            System.out.println("Digit > 0");
         } else {
-            System.out.println("Число менше або дорівнює нулю");
+            System.out.println("Digit < 0");
         }
     }
 

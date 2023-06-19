@@ -9,19 +9,19 @@ public class SecondHomeWorkFancyVersion {
     public static void sumOfParts(int a) {
         int number, sum = 0;
         Scanner input = new Scanner(System.in);
-        System.out.println("Введіть одне число:");
+        System.out.println("Input one number:");
         number = input.nextInt();
         while (number > 0) {
             sum = sum + number % 10;
             number = number / 10;
         }
-        System.out.println("Сума цифр " + sum);
+        System.out.println(sum);
     }
 
     public static void sumOfParts(String b) {
         int numberOfCharacters = 0;
         Scanner scan = new Scanner(System.in);
-        System.out.println("Введіть Ваші слова:");
+        System.out.println("Input your phrase:");
         String input = scan.nextLine();
         String[] phrase = input.split("\\s+");
         for (int counter = 0; phrase.length > counter; counter++) {
@@ -33,12 +33,12 @@ public class SecondHomeWorkFancyVersion {
     public static void sumOfParts(boolean b) {
         int number;
         Scanner input = new Scanner(System.in);
-        System.out.println("Введіть одне число:");
+        System.out.println("Input one number:");
         number = input.nextInt();
-        if (number>0){
-            System.out.println("Число більше нуля");
-        }else{
-            System.out.println("Число менше або дорівнює нулю");
+        if (number > 0) {
+            System.out.println("Number is greater than zero");
+        } else {
+            System.out.println("Number is less than zero");
         }
     }
 
