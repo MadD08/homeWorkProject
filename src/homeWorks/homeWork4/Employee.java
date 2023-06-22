@@ -17,7 +17,7 @@ public class Employee {
         System.out.println(id);
     }
 
-    Employee(double salary, String surname, int id){
+    private Employee(double salary, String surname, int id){
         this.salary = salary;
         this.surname = surname;
         this.id = id;
