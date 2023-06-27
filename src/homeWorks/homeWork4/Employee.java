@@ -5,15 +5,15 @@ public class Employee {
     public String surname;
     protected int id;
 
-    public void DisplaySalary() {
+    public void displaySalary() {
         System.out.println(salary);
     }
 
-    public void DisplaySurname() {
+    public void displaySurname() {
         System.out.println(surname);
     }
 
-    public void DisplayId() {
+    public void displayId() {
         System.out.println(id);
     }
 
@@ -22,7 +22,5 @@ public class Employee {
         this.surname = surname;
         this.id = id;
     }
-
-
 
 }
