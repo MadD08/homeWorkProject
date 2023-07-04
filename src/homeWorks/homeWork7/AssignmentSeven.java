@@ -7,10 +7,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class AssignmentSeven {
-    private static int[] numbers = {3, 6, 12, 32, 41};
-    private static int delimiter = 0;
 
     public static void divide() {
+        int[] numbers = {3, 6, 12, 32, 41};
+        int delimiter = 0;
         for (int i = 0; i < numbers.length; i++) {
             try {
                 numbers[i] = numbers[i] / delimiter;
